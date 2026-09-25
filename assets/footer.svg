@@ -1,20 +1,109 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="footbg" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020817"/>
-      <stop offset="0.5" stop-color="#07182E"/>
-      <stop offset="1" stop-color="#0B4DBB"/>
-    </linearGradient>
+<svg width="1200" height="190" viewBox="0 0 1200 190"
+xmlns="http://www.w3.org/2000/svg">
 
-    <linearGradient id="footwave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0A3C8E"/>
-      <stop offset="0.5" stop-color="#1F6FEB"/>
-      <stop offset="1" stop-color="#58A6FF"/>
-    </linearGradient>
-  </defs>
+<defs>
 
-  <rect width="1200" height="150" rx="22" fill="url(#footbg)"/>
+<linearGradient id="footerBackground" x1="0" y1="0" x2="1200" y2="190">
+  <stop offset="0%" stop-color="#020817"/>
+  <stop offset="50%" stop-color="#06172B"/>
+  <stop offset="100%" stop-color="#104CB5"/>
+</linearGradient>
 
-  <path d="M0 85C55 60 110 60 165 85C220 110 275 110 330 85C385 60 440 60 495 85C550 110 605 110 660 85C715 60 770 60 825 85C880 110 935 110 990 85C1045 60 1100 60 1200 92V150H0V85Z" fill="#0A3C8E" fill-opacity="0.6"/>
-  <path d="M0 100C70 78 140 78 210 100C280 122 350 122 420 100C490 78 560 78 630 100C700 122 770 122 840 100C910 78 980 78 1050 100C1120 122 1160 122 1200 108V150H0V100Z" fill="url(#footwave)" fill-opacity="0.82"/>
+<linearGradient id="footerWave" x1="0" y1="0" x2="1200" y2="0">
+  <stop stop-color="#0B3D91"/>
+  <stop offset="0.5" stop-color="#1F6FEB"/>
+  <stop offset="1" stop-color="#58A6FF"/>
+</linearGradient>
+
+<linearGradient id="footerText" x1="350" y1="0" x2="850" y2="0">
+  <stop stop-color="#58A6FF"/>
+  <stop offset="0.5" stop-color="#2F81F7"/>
+  <stop offset="1" stop-color="#79C0FF"/>
+</linearGradient>
+
+<filter id="glow">
+  <feGaussianBlur stdDeviation="4" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+</defs>
+
+
+<rect
+width="1200"
+height="190"
+rx="20"
+fill="url(#footerBackground)"
+/>
+
+
+<text
+x="600"
+y="52"
+text-anchor="middle"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="23"
+font-weight="700"
+fill="url(#footerText)"
+filter="url(#glow)">
+💻 Building • Learning • Improving
+</text>
+
+
+<text
+x="600"
+y="82"
+text-anchor="middle"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="15"
+font-style="italic"
+fill="#D8E6FA">
+Turning ideas into working products, one commit at a time.
+</text>
+
+
+<path
+d="M0 132
+C75 105 150 105 225 132
+S375 159 450 132
+S600 105 675 132
+S825 159 900 132
+S1050 105 1200 136
+V190 H0 Z"
+fill="#0B3E8F"
+opacity="0.65">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="-25 0;25 0;-25 0"
+dur="7s"
+repeatCount="indefinite"/>
+
+</path>
+
+
+<path
+d="M0 150
+C80 125 160 125 240 150
+S400 175 480 150
+S640 125 720 150
+S880 175 960 150
+S1120 125 1200 150
+V190 H0 Z"
+fill="url(#footerWave)"
+opacity="0.85">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="25 0;-25 0;25 0"
+dur="6s"
+repeatCount="indefinite"/>
+
+</path>
+
 </svg>
