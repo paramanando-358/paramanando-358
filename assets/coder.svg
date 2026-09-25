@@ -1,0 +1,47 @@
+<svg width="540" height="320" viewBox="0 0 540 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="540" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#04101F"/>
+      <stop offset="1" stop-color="#081C35"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(255 175) rotate(90) scale(110 180)">
+      <stop stop-color="#1F6FEB" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="540" height="320" rx="24" fill="url(#bg2)"/>
+  <rect width="540" height="320" rx="24" fill="url(#glow2)"/>
+
+  <rect x="165" y="80" width="170" height="110" rx="10" fill="#0A1730" stroke="#1F6FEB" stroke-opacity="0.45"/>
+  <rect x="175" y="90" width="150" height="90" rx="6" fill="#08101D"/>
+
+  <rect x="185" y="102" width="55" height="6" rx="3" fill="#58A6FF"/>
+  <rect x="245" y="102" width="35" height="6" rx="3" fill="#2F81F7"/>
+  <rect x="185" y="117" width="90" height="6" rx="3" fill="#D2A8FF"/>
+  <rect x="185" y="132" width="65" height="6" rx="3" fill="#7EE787"/>
+  <rect x="255" y="132" width="40" height="6" rx="3" fill="#58A6FF"/>
+  <rect x="185" y="147" width="95" height="6" rx="3" fill="#FFA657"/>
+  <rect x="185" y="162" width="48" height="6" rx="3" fill="#F778BA"/>
+  <rect x="238" y="162" width="68" height="6" rx="3" fill="#58A6FF"/>
+
+  <rect x="227" y="190" width="46" height="8" rx="4" fill="#132E57"/>
+  <rect x="210" y="198" width="80" height="10" rx="5" fill="#0E2342"/>
+
+  <rect x="140" y="218" width="210" height="10" rx="5" fill="#0A1730"/>
+
+  <rect x="116" y="205" width="34" height="18" rx="4" fill="#0F1E33"/>
+  <rect x="96" y="223" width="75" height="10" rx="5" fill="#0A1730"/>
+  <path d="M110 205C100 188 99 174 110 160C121 147 142 143 159 151C177 159 181 181 170 193L156 210L110 205Z" fill="#111C2E"/>
+  <circle cx="149" cy="160" r="13" fill="#131F32"/>
+
+  <path d="M380 95C392 108 392 130 380 142" stroke="#58A6FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M400 84C417 104 417 137 400 157" stroke="#58A6FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M420 72C443 98 443 143 420 170" stroke="#58A6FF" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="430" y="110" fill="#58A6FF" font-size="17" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Build</text>
+  <text x="430" y="138" fill="#58A6FF" font-size="17" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Learn</text>
+  <text x="430" y="166" fill="#58A6FF" font-size="17" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Improve</text>
+  <text x="430" y="194" fill="#58A6FF" font-size="17" font-weight="600" font-family="Segoe UI, Arial, sans-serif">Repeat</text>
+</svg>
