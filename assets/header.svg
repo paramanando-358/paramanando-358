@@ -83,15 +83,14 @@ fill="url(#glow)"
 
 <!-- title -->
 
-<text
-x="600"
-y="78"
-text-anchor="middle"
-font-family="Segoe UI, Arial, sans-serif"
-font-size="37"
-font-weight="700"
-fill="url(#title)"
-filter="url(#titleGlow)">
+<text 
+x="600" 
+y="78" 
+text-anchor="middle" 
+font-family="Segoe UI, Arial, sans-serif" 
+font-size="37" 
+font-weight="700" 
+fill="#79A9D8">
 Hi 👋 I’m Paramanando
 </text>
 
