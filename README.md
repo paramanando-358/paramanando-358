@@ -124,40 +124,53 @@
 
 ---
 
-# 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=paramanando-sadhu&show_icons=true&hide_border=true&bg_color=020817&title_color=58A6FF&text_color=C9D1D9&icon_color=1F6FEB" alt="GitHub Stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paramanando-sadhu&layout=compact&hide_border=true&bg_color=020817&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages"/>
+
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=paramanando-sadhu&theme=github_dark" alt="GitHub Stats"/>
+
+<img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=paramanando-sadhu&theme=github_dark" alt="Top Languages"/>
+
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=paramanando-sadhu&theme=github-dark-blue&hide_border=true&background=020817&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF" alt="GitHub Streak"/>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=paramanando-sadhu&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1F6FEB&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak"/>
+
 </div>
+
+<br/>
 
 ---
 
-# 🤝 Connect With Me
+## 🤝 Connect With Me
+
+<br/>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/paramanando-sadhu-551b25399/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
 
-  &nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/paramanando-sadhu-551b25399/">
+<img height="38" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 
-  <a href="mailto:paramanando.sadhu@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
+&nbsp;&nbsp;&nbsp;
+
+<a href="mailto:paramanando.sadhu@gmail.com">
+<img height="38" src="https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
+
 </div>
+
+<br/>
 
 ---
 
 <div align="center">
 
-## 💻 Building • Learning • Improving
+### 💻 Building • Learning • Improving
 
 <i>Turning ideas into working products, one commit at a time.</i>
 
