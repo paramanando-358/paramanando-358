@@ -1,63 +1,167 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020817"/>
-      <stop offset="0.5" stop-color="#07182E"/>
-      <stop offset="1" stop-color="#0B4DBB"/>
-    </linearGradient>
+<svg width="1200" height="260" viewBox="0 0 1200 260"
+xmlns="http://www.w3.org/2000/svg">
 
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(600 70) rotate(90) scale(140 500)">
-      <stop stop-color="#1F6FEB" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
-    </radialGradient>
+<defs>
 
-    <linearGradient id="wave1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B3E8F"/>
-      <stop offset="0.5" stop-color="#1F6FEB"/>
-      <stop offset="1" stop-color="#168BFF"/>
-    </linearGradient>
+<linearGradient id="background" x1="0" y1="0" x2="1200" y2="260">
+  <stop offset="0%" stop-color="#020817"/>
+  <stop offset="48%" stop-color="#06172B"/>
+  <stop offset="100%" stop-color="#1155C8"/>
+</linearGradient>
 
-    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#168BFF" flood-opacity="0.18"/>
-    </filter>
-  </defs>
+<linearGradient id="waveA" x1="0" y1="0" x2="1200" y2="0">
+  <stop offset="0%" stop-color="#0A3478"/>
+  <stop offset="50%" stop-color="#1558C8"/>
+  <stop offset="100%" stop-color="#087EFF"/>
+</linearGradient>
 
-  <rect width="1200" height="280" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="280" rx="24" fill="url(#glow)"/>
+<linearGradient id="title" x1="300" y1="0" x2="900" y2="0">
+  <stop stop-color="#58A6FF"/>
+  <stop offset="0.5" stop-color="#2F81F7"/>
+  <stop offset="1" stop-color="#79C0FF"/>
+</linearGradient>
 
-  <circle cx="50" cy="35" r="2" fill="#58A6FF"/>
-  <circle cx="140" cy="85" r="2" fill="#58A6FF"/>
-  <circle cx="1080" cy="40" r="2" fill="#58A6FF"/>
-  <circle cx="1130" cy="80" r="2" fill="#58A6FF"/>
-  <circle cx="900" cy="55" r="2" fill="#58A6FF"/>
-  <circle cx="260" cy="55" r="2" fill="#58A6FF"/>
+<radialGradient id="glow">
+  <stop offset="0%" stop-color="#1F6FEB" stop-opacity="0.28"/>
+  <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0"/>
+</radialGradient>
 
-  <text x="600" y="86" text-anchor="middle" fill="#58A6FF" font-size="34" font-weight="700" font-family="Segoe UI, Arial, sans-serif">
-    Hi 👋 I’m Paramanando
-  </text>
+<filter id="titleGlow">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
 
-  <text x="600" y="126" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600" font-family="Segoe UI, Arial, sans-serif">
-    Computer Science Student &amp; Full-Stack Web Developer
-  </text>
+</defs>
 
-  <text x="600" y="164" text-anchor="middle" fill="#D6E3F5" font-size="16" font-family="Segoe UI, Arial, sans-serif">
-    Building real-world solutions through code. Turning ideas into working products.
-  </text>
+<rect
+width="1200"
+height="260"
+rx="22"
+fill="url(#background)"
+/>
 
-  <g filter="url(#shadow)">
-    <rect x="460" y="188" rx="22" ry="22" width="280" height="42" fill="#081223" stroke="#1F6FEB" stroke-opacity="0.5"/>
-    <circle cx="495" cy="209" r="10" fill="#0F1D36"/>
-    <path d="M489 209c2.5-4 9.5-4 12 0-2.5 4-9.5 4-12 0zm6-3a3 3 0 100 6 3 3 0 000-6z" fill="#CFE3FF"/>
-    <text x="575" y="214" text-anchor="middle" fill="#EAF2FF" font-size="16" font-family="Segoe UI, Arial, sans-serif">
-      Profile Views
-    </text>
-    <rect x="640" y="192" rx="18" ry="18" width="80" height="34" fill="#1F6FEB"/>
-    <text x="680" y="214" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="700" font-family="Segoe UI, Arial, sans-serif">
-      1.2K+
-    </text>
-  </g>
+<ellipse
+cx="600"
+cy="80"
+rx="420"
+ry="170"
+fill="url(#glow)"
+/>
 
-  <path d="M0 235C45 205 90 205 135 235C180 265 225 265 270 235C315 205 360 205 405 235C450 265 495 265 540 235C585 205 630 205 675 235C720 265 765 265 810 235C855 205 900 205 945 235C990 265 1035 265 1080 235C1125 205 1162 205 1200 225V280H0V235Z" fill="#0A3C8E" fill-opacity="0.65"/>
-  <path d="M0 245C55 220 110 220 165 245C220 270 275 270 330 245C385 220 440 220 495 245C550 270 605 270 660 245C715 220 770 220 825 245C880 270 935 270 990 245C1045 220 1100 220 1200 248V280H0V245Z" fill="url(#wave1)" fill-opacity="0.75"/>
+<!-- stars -->
+
+<g fill="#58A6FF">
+
+<circle cx="55" cy="38" r="2">
+  <animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="180" cy="78" r="2">
+  <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="315" cy="48" r="2">
+  <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="900" cy="48" r="2">
+  <animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1060" cy="70" r="2">
+  <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1140" cy="38" r="2">
+  <animate attributeName="opacity" values="1;0.2;1" dur="3.4s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- title -->
+
+<text
+x="600"
+y="78"
+text-anchor="middle"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="37"
+font-weight="700"
+fill="url(#title)"
+filter="url(#titleGlow)">
+Hi 👋 I’m Paramanando
+</text>
+
+<text
+x="600"
+y="122"
+text-anchor="middle"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="23"
+font-weight="600"
+fill="#FFFFFF">
+Computer Science Student &amp; Full-Stack Web Developer
+</text>
+
+<text
+x="600"
+y="159"
+text-anchor="middle"
+font-family="Segoe UI, Arial, sans-serif"
+font-size="16"
+fill="#D8E6FA">
+Building real-world solutions through code • Turning ideas into working products
+</text>
+
+
+<!-- animated waves -->
+
+<g>
+
+<path
+d="M0 214
+C70 180 140 180 210 214
+S350 248 420 214
+S560 180 630 214
+S770 248 840 214
+S980 180 1050 214
+S1140 238 1200 208
+V260 H0 Z"
+fill="#0B3E8F"
+opacity="0.72">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="-20 0;20 0;-20 0"
+dur="7s"
+repeatCount="indefinite"/>
+
+</path>
+
+<path
+d="M0 229
+C75 205 150 205 225 229
+S375 253 450 229
+S600 205 675 229
+S825 253 900 229
+S1050 205 1200 233
+V260 H0 Z"
+fill="url(#waveA)"
+opacity="0.84">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="20 0;-20 0;20 0"
+dur="6s"
+repeatCount="indefinite"/>
+
+</path>
+
+</g>
+
 </svg>
