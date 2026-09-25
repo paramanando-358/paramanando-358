@@ -36,7 +36,7 @@
 
 <td width="40%" align="center" valign="middle">
 
-<img src="./assets/coder.svg" width="100%" alt="Developer Illustration"/>
+<img src="./assets/coder.png" width="100%" alt="Developer Illustration"/>
 
 </td>
 </tr>
