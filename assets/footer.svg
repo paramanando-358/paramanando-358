@@ -1,0 +1,20 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footbg" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020817"/>
+      <stop offset="0.5" stop-color="#07182E"/>
+      <stop offset="1" stop-color="#0B4DBB"/>
+    </linearGradient>
+
+    <linearGradient id="footwave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A3C8E"/>
+      <stop offset="0.5" stop-color="#1F6FEB"/>
+      <stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="150" rx="22" fill="url(#footbg)"/>
+
+  <path d="M0 85C55 60 110 60 165 85C220 110 275 110 330 85C385 60 440 60 495 85C550 110 605 110 660 85C715 60 770 60 825 85C880 110 935 110 990 85C1045 60 1100 60 1200 92V150H0V85Z" fill="#0A3C8E" fill-opacity="0.6"/>
+  <path d="M0 100C70 78 140 78 210 100C280 122 350 122 420 100C490 78 560 78 630 100C700 122 770 122 840 100C910 78 980 78 1050 100C1120 122 1160 122 1200 108V150H0V100Z" fill="url(#footwave)" fill-opacity="0.82"/>
+</svg>
